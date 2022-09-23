@@ -1,0 +1,11 @@
+.breadcrumb
+  background: $bg-color
+  &-list
+    display: flex
+    padding: 18px 0px
+    &__item
+      &:not(:last-child)
+        &::after
+          content: '/'
+          margin-right: 4px
+    &__link
