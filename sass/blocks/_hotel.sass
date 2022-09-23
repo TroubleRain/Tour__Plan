@@ -1,1 +1,66 @@
-
+.hotel
+  background: $bg-color
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    padding: 23px 0 70px 0
+    align-items: center
+  &__stars
+    margin-bottom: 4px
+    flex-basis: 100%
+  &__name
+    font-family: 'Mulish'
+    font-weight: 700
+    font-size: 24px
+    line-height: 30px
+  &__info
+    &-text
+      display: flex
+      align-items: center
+      flex-wrap: wrap
+  &__name
+    font-family: 'Mulish'
+    font-weight: 700
+    font-size: 24px
+    line-height: 30px
+    margin-right: 14px
+  &__flash
+    padding: 4px 0px
+    width: 70px
+    border-radius: 3px
+    background: $primary
+    text-align: center
+    font-family: 'Mulish'
+    font-weight: 600
+    font-size: 10px
+    line-height: 13px
+    color: #ffffffff
+  &__rate
+    display: flex
+    flex-direction: column
+    padding: 9px 0 6px 0px
+    background: $primary
+    border-radius: 4px
+    width: 65px
+    align-items: center
+    &-text
+      font-family: 'Mulish'
+      font-weight: 600
+      font-size: 8px
+      line-height: 10px
+      color: #ffffff
+    &-grade
+      display: flex
+      font-family: 'Mulish'
+      font-weight: 700
+      align-items: flex-end
+    &-big
+      font-size: 14px
+      color: #FFFFFF
+      line-height: 18px
+      &::after
+        content: '/'
+    &-lower
+      color: #FFFFFF
+      font-size: 10px
+      line-height: 13px

@@ -29,19 +29,6 @@
       line-height: 10px
 @media (max-width:576px)
   .container
-    max-width: 500px
-  .logo
-    font-size: 15px
-    line-height: 15px
-  .search
-    max-width: 220px
-  .navbar
-    &-menu
-      font-size: 10px
-      line-height: 12px
-    &-bottom
-@media (max-width:480px)
-  .container
     max-width: 430px
 
   .logo
@@ -68,4 +55,18 @@
         width: 16px
         height: 1px
         background: $text-color
+  .hotel
+    &__rate
+      display: none
+    &__flash
+      order: -1
+    &__stars
+      flex-basis: content
+    &__info
+      &-text
+        justify-content: space-between
+    &__name
+      flex-basis: 100%
+@media (max-width:480px)
+
 @media (max-width:320px)
