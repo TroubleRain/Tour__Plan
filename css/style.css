@@ -7,6 +7,9 @@
   text-decoration: none;
   list-style: none;
   font-weight: 400;
+  border: none;
+  overflow: hidden;
+  color: #333333;
 }
 
 .container {
